@@ -1,32 +1,57 @@
-@media print {
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+/* Set up page layout */
+body {
+  font-family: 'Arial', sans-serif;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 30px;
+  color: #000;
+  background: #fff;
+}
 
-  body {
-    width: 100%;           /* Allow full width use */
-    height: auto;          /* Let content decide height */
-    font-size: 12pt;
-    margin: 0;
-    padding: 10mm 15mm;    /* Reduced padding for more space */
-  }
+/* Title styling */
+h1, h2, h3 {
+  margin-bottom: 10px;
+  color: #2c3e50;
+}
 
-  html, body {
-    overflow: hidden;
-  }
+/* Section headers */
+h2 {
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 5px;
+  margin-top: 30px; /* Adds space above each section */
+}
 
-  body, .container {
-    background: #fff !important;
-    color: #000 !important;
-  }
+/* Paragraph and list spacing */
+p, ul {
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
 
-  nav, .no-print, a[href]:after {
-    display: none !important;
-  }
+/* Contact Info Styling */
+.header-contact {
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #333;
+}
 
-  .page-break {
-    page-break-after: avoid;
-  }
+/* Project/Internship section spacing */
+section {
+  margin-bottom: 30px;
+}
+
+/* GitHub Links */
+a {
+  color: #0073e6;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Horizontal Rule for extra clarity if needed */
+hr {
+  border: 0;
+  border-top: 1px solid #aaa;
+  margin: 25px 0;
 }
