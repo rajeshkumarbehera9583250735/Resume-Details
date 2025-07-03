@@ -2,75 +2,60 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Rajesh Kumar Behera - Resume</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="resume">
+  <div class="container">
     <header>
       <h1>Rajesh Kumar Behera</h1>
-      <p>
-  📞 +91-9583250735 |
-  <a href="mailto:rajeshkumarbeheracool@gmail.com">rajeshkumarbeheracool@gmail.com</a> |
-  🔗 <a href="https://www.linkedin.com/in/rajesh-kumar-behera-rk" target="_blank">LinkedIn</a> |
-  💻 <a href="https://github.com/rajeshkumarbehera9583250735" target="_blank">GitHub</a> |
-  📍 Bengaluru, Karnataka
-</p>
-
+      <p class="contact">
+         +91-9583250735 |
+        <a href="mailto:rajeshkumarbeheracool@gmail.com">Email</a> |
+        <a href="https://www.linkedin.com/in/rajesh-kumar-behera-rk" target="_blank">LinkedIn</a> |
+        <a href="https://github.com/rajeshkumarbehera9583250735" target="_blank">GitHub</a> <br>
+        Bengaluru, Karnataka
+      </p>
     </header>
 
     <section>
       <h2>Profile Summary</h2>
-      <p>Passionate and detail-oriented Java Developer with expertise in Full Stack Development and Software Engineering. Proficient in Core Java (OOPs, Exception Handling, Collections, Multithreading), Advanced Java (JDBC, Servlets, JSP, Hibernate, Spring Core). Skilled in database management (SQL), front-end technologies, and real-world web project development. Strong analytical and problem-solving abilities with quick learning capacity. Focused on building scalable, high-performance software solutions.</p>
+      <p>Passionate and detail-oriented Java Developer with expertise in Full Stack Development and Software Engineering. Proficient in Core Java (OOPs, Exception Handling, Collections, Multithreading), Advanced Java (JDBC, Servlets, JSP, Hibernate, Spring Core). Skilled in database management (SQL), frontend technologies, and real-world project development. Strong analytical and problem-solving abilities with quick learning capacity. Focused on building scalable, high-performance software solutions.</p>
     </section>
 
     <section>
-        <h2>Key Skills & Competencies</h2>
-        <ul>
-          <li><strong>Languages/Technologies:</strong> Java (OOPs, Collections, Exception Handling, Multithreading), JDBC, Servlets, JSP, Hibernate, Spring Core</li>
-          <li><strong>Web Technologies:</strong> HTML, CSS, JavaScript, JSP</li>
-          <li><strong>Frameworks:</strong> Hibernate, Spring Core</li>
-          <li><strong>Database:</strong> SQL, PostgreSQL, MySQL</li>
-          <li><strong>Tools:</strong> Eclipse, NetBeans, Visual Studio Code, Apache Tomcat</li>
-          <li><strong>Architecture:</strong> MVC (Model-View-Controller)</li>
-          <li><strong>Soft Skills:</strong> Problem Solving, Critical Thinking, Communication, Team Collaboration</li>
-        </ul>
-      </section>
-      
+      <h2>Key Skills & Competencies</h2>
+      <ul>
+        <li><strong>Languages & Technologies:</strong> Java, JDBC, JSP, Servlets, Hibernate, Spring Core</li>
+        <li><strong>Web:</strong> HTML, CSS, JavaScript</li>
+        <li><strong>Databases:</strong> SQL</li>
+        <li><strong>Frameworks:</strong> Spring Core, Hibernate</li>
+        <li><strong>Tools:</strong> Eclipse, NetBeans, VS Code, Apache Tomcat, GitHub Desktop</li>
+        <li><strong>Architecture:</strong> MVC (Model-View-Controller)</li>
+        <li><strong>Soft Skills:</strong> Problem Solving, Communication, Team Collaboration</li>
+      </ul>
+    </section>
 
     <section>
       <h2>Projects</h2>
 
       <h3>E-Book Management System</h3>
       <p><strong>GitHub:</strong> <a href="https://github.com/rajeshkumarbehera9583250735/EBook-Management-System" target="_blank">View Project</a></p>
-      <ul>
-        <li><strong>Overview:</strong> A Java-based online bookstore web application allowing users to browse, purchase books, and manage orders. Admins can manage inventory and user data.</li>
-        <li><strong>Technologies:</strong> Servlets, JDBC, JSP, JSTL, HTML, CSS, PostgreSQL, Apache Tomcat</li>
-        <li><strong>Architecture:</strong> MVC pattern with clear separation of Model (DTOs), DAO, and Servlet logic</li>
-        <li><strong>Modules:</strong>
-          <ul>
-            <li>User: Registration/Login, Browse Books, Add to Cart, Place Orders, Track Orders</li>
-            <li>Admin: Login, CRUD on Books, View Users, Manage Orders</li>
-          </ul>
-        </li>
-        <li><strong>Challenges Solved:</strong> PostgreSQL schema mismatches, session handling, secure CRUD flows</li>
-        <li><strong>Key Learnings:</strong> Full-stack integration, reusable DAO classes, session persistence, and DB error debugging</li>
+      <ul class="project-details">
+        <li><strong>Overview:</strong> A Java-based online bookstore for browsing, purchasing books, and managing orders.</li>
+        <li><strong>Technologies:</strong> JSP, Servlets, JDBC, HTML, CSS, PostgreSQL, Apache Tomcat</li>
+        <li><strong>Modules:</strong> User Login, Browse/Add Books, Order Management</li>
+        <li><strong>Key Learning:</strong> DAO abstraction, MVC design, session persistence</li>
       </ul>
 
       <h3>Online Examination System</h3>
       <p><strong>GitHub:</strong> <a href="https://github.com/rajeshkumarbehera9583250735/online-examination-system" target="_blank">View Project</a></p>
-      <ul>
-        <li><strong>Overview:</strong> A Java-based web platform for online exams. Students can register, take exams, and view results. Admins manage users, courses, and question banks.</li>
-        <li><strong>Technologies:</strong> Java, JDBC, Servlets, JSP, HTML, CSS, MySQL, Apache Tomcat</li>
-        <li><strong>Architecture:</strong> MVC using POJOs for User, Questions, Courses, Exams, Answers</li>
-        <li><strong>Modules:</strong>
-          <ul>
-            <li>Student: Register/Login, View Courses, Start Exam, Submit Answers, View Result History</li>
-            <li>Admin: Add/Delete Courses & Questions, Manage Students, View Answers & Results</li>
-          </ul>
-        </li>
-        <li><strong>Features:</strong> Timed exams with LocalTime tracking, randomized questions, auto grading, result computation</li>
-        <li><strong>Key Learnings:</strong> Exam timer logic, random question logic, JDBC-based CRUD, session control</li>
+      <ul class="project-details">
+        <li><strong>Overview:</strong> Web-based Java exam portal with student/admin modules.</li>
+        <li><strong>Technologies:</strong> Java, JSP, JDBC, HTML, CSS, MySQL</li>
+        <li><strong>Modules:</strong> Question Bank, Exam Engine, Admin Panel</li>
+        <li><strong>Features:</strong> Random questions, auto-grading, session control</li>
       </ul>
     </section>
 
@@ -78,9 +63,8 @@
       <h2>Internship Experience</h2>
       <p><strong>Atharw Mentor Club Pvt. Ltd – Web Development (ReactJS)</strong></p>
       <ul>
-        <li>Developed interactive UI components using ReactJS and JavaScript</li>
-        <li>Created a dynamic To-Do List with modular structure and reusable logic</li>
-        <li>Learned front-end best practices and component-based design</li>
+        <li>Built reusable UI components using ReactJS.</li>
+        <li>Designed a modular To-Do list with proper state management.</li>
       </ul>
     </section>
 
@@ -88,16 +72,20 @@
       <h2>Courses</h2>
       <ul>
         <li>NPTEL: Cloud Computing and Distributed Systems</li>
-        <li>Naresh IT, Hyderabad: Core Java</li>
-        <li>Jspiders, Bengaluru: Full Stack Java Development</li>
+         <li>Naresh IT: Core Java                
+             <a href="https://drive.google.com/file/d/1JOAwVMludvwpyPy14RFGGskPLSEMfWMh/view?usp=sharing" target="_blank">
+             (Certificate)
+            </a>
+         </li>
+        <li>JSpiders: Full Stack Java Development</li>
       </ul>
     </section>
 
     <section>
       <h2>Education</h2>
       <ul>
-        <li><strong>MCA – Fakir Mohan University, Odisha (2022–2024)</strong> – CGPA: 7.83</li>
-        <li><strong>BSc Computer Science – Chitalo Mahavidyalaya (2019–2022)</strong><br>CGPA: 8.53 | 80.30 % | Grade: A+ Distinction</li>
+        <li><strong>MCA</strong> – Fakir Mohan University, Odisha (2022–2024) – CGPA: 7.83</li>
+        <li><strong>BSc Computer Science</strong> – Chitalo Mahavidyalaya (2019–2022) – CGPA: 8.53 | Grade: A+ Distinction</li>
       </ul>
     </section>
   </div>
